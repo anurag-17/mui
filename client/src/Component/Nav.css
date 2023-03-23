@@ -1,0 +1,33 @@
+.top_navBox{
+ background: url('../Img/MangoMedicalBanner.svg')no-repeat;
+ background-position: center;
+ height: 750px;
+ width: 100%;
+ background-size: cover;
+}
+
+.img_Wave{
+    bottom: -50px;
+   display: flex;
+    width: 100%;
+    /* aspect-ratio: 3/2; */
+    justify-content: center;
+    
+}
+.img_Wave img{
+}
+.top_tabs{
+    background: url('../Img/MangoMedicalSection.svg')no-repeat;
+    background-position: center;
+    height: 880px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.MuiCard-root{
+    margin: 0 auto;
+    
+}
