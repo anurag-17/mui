@@ -26,22 +26,22 @@ export const Tabss = () => {
     setValue(newValue);
   };
   console.log(value);
+
   return (
     <>
       <div className="top_tabs">
         <TabContext value={value}>
-          <TabList onChange={handleChange} aria-label="lab API tabs example" sx={{justifyContent:"center"}}>
-            <div
-              style={{
-                fonStyle: "normal",
-                fontWeight: 300,
-                fontSize: "48px",
-                lineHeight: "100%",
-                color: "white",
-              }}
+          <div className="scroller"
+           
+          >
+          <span style={{marginTop:"10px",marginRight:"50px"}}>   Benefits for</span>
+            <TabList
+              onChange={handleChange}
+              aria-label="lab API tabs example"
+              sx={{ justifyContent: "center",mt:"2px" }}
             >
-              Benefits for
-              <Tab
+              <Tab className="tabsdetail"
+                disabled
                 sx={{
                   color: "white",
                   fonStyle: "normal",
@@ -51,9 +51,10 @@ export const Tabss = () => {
                   color: "white",
                 }}
                 label="Surgeons"
-                value="2"
+                value="1"
               />
-              <Tab
+              <Tab className="tabsdetail"
+                disabled
                 sx={{
                   color: "white",
                   fonStyle: "normal",
@@ -63,9 +64,10 @@ export const Tabss = () => {
                   color: "white",
                 }}
                 label="Patient"
-                value="1"
+                value="2"
               />
-              <Tab
+              <Tab className="tabsdetail"
+                disabled
                 sx={{
                   color: "white",
                   fonStyle: "normal",
@@ -77,11 +79,12 @@ export const Tabss = () => {
                 label="Healthcare System"
                 value="3"
               />
-            </div>
-          </TabList>
+            </TabList>
+          </div>
 
           <Carousel
             autoPlay={false}
+            navButtonsAlwaysInVisible={true}
             next={() => {
               if (value == 1) {
                 setValue("2");
@@ -103,7 +106,7 @@ export const Tabss = () => {
             NextIcon={<NExt />}
             PrevIcon={<Prev />}
           >
-            <TabPanel value="1">
+            <TabPanel value="1" sx={{mt:'10px'}}>
               <Card
                 sx={{
                   minWidth: 100,
