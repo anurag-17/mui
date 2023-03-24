@@ -21,8 +21,11 @@
   width: 100%;
   height: 100%;
 }
-
+.aadil{
+  display: flex;
+}
 .swiper-slide {
+  width: 300px!important;
   text-align: center;
   font-size: 18px;
   display: -webkit-box;
@@ -73,7 +76,59 @@
 .App-link {
   color: #61dafb;
 }
+.footertop{
+  display: flex;
+  justify-content: space-around;
+text-align: left;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.footerlast{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 12px;
+line-height: 100%;
+/* or 12px */
 
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #484848;
+
+}
+.footerheading{
+  font-family: 'Poppins' !important;
+font-style: normal!important;
+font-weight: 700!important;
+font-size: 20px!important;
+line-height: 100%!important;
+/* or 20px */
+
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #484848;
+}
+.footeritem{
+  font-family: 'Poppins'!important;
+font-style: normal !important;
+font-weight: 250 !important;
+font-size: 22px !important;
+line-height: 100% !important;
+/* or 22px */
+color: #484848;
+letter-spacing: -0.02em !important;
+text-transform: uppercase !important;
+
+color: #484848;
+}
+.footertopborder{
+  width: auto;
+  display: block;
+  margin-top: 5px;
+  border: 1px solid rgb(82, 80, 80);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
