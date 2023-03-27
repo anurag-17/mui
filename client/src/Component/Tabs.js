@@ -141,7 +141,7 @@ export const Tabss = () => {
                         justifyContent: "space-around",
                         textAlign: "center",
                         color: "white",
-                        fontSize: "24px",
+                         fontSize: {xl:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
                       }}
@@ -159,7 +159,7 @@ export const Tabss = () => {
                         justifyContent: "space-around",
                         textAlign: "center",
                         color: "white",
-                        fontSize: "24px",
+                         fontSize: {xl:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
                       }}
@@ -177,7 +177,7 @@ export const Tabss = () => {
                         justifyContent: "space-around",
                         textAlign: "center",
                         color: "white",
-                        fontSize: "24px",
+                         fontSize: {lg:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
                       }}

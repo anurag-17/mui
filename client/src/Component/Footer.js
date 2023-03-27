@@ -22,10 +22,10 @@ export const Footer = () => {
         </Typography>
         <List aria-labelledby="basic-list-demo"
         className="footeritem">
-          <ListItem>Home</ListItem>
-          <ListItem>Contact</ListItem>
-          <ListItem>Legal Notice</ListItem>
-          <ListItem>Data Protection</ListItem>
+          <ListItem sx={{color:"#484848"}}>Home</ListItem>
+          <ListItem sx={{color:"#484848"}}>Contact</ListItem>
+          <ListItem sx={{color:"#484848"}}>Legal Notice</ListItem>
+          <ListItem sx={{color:"#484848"}}>Data Protection</ListItem>
         </List>
       </div>
       <div>
@@ -42,10 +42,10 @@ export const Footer = () => {
         </Typography>
         <List aria-labelledby="basic-list-demo" 
         className="footeritem">
-          <ListItem>Team</ListItem>
-          <ListItem>Careers</ListItem>
-          <ListItem>News</ListItem>
-          <ListItem>BLOG</ListItem>
+          <ListItem sx={{color:"#484848"}}>Team</ListItem>
+          <ListItem sx={{color:"#484848"}}>Careers</ListItem>
+          <ListItem sx={{color:"#484848"}}>News</ListItem>
+          <ListItem sx={{color:"#484848"}}>BLOG</ListItem>
         </List>
       </div>
       <div>
@@ -63,8 +63,8 @@ export const Footer = () => {
         <List aria-labelledby="basic-list-demo"
           className="footeritem"
         >
-          <ListItem>Email</ListItem>
-          <ListItem>LinkedIn</ListItem>
+          <ListItem sx={{color:"#484848"}}>Email</ListItem>
+          <ListItem sx={{color:"#484848"}}>LinkedIn</ListItem>
           
         </List>
       </div>

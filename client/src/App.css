@@ -12,20 +12,19 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.css-eifodq-MuiButtonBase-root-MuiTab-root.Mui-disabled {
+.css-eifodq-MuiButtonBase-root-MuiTab-root.Mui-disabled, .css-13ippc8 {
   color: white !important;
 }
-
 
 .swiper {
   width: 100%;
   height: 100%;
 }
-.aadil{
+.aadil {
   display: flex;
 }
 .swiper-slide {
-  width: 300px!important;
+  width: 355px !important;
   text-align: center;
   font-size: 18px;
   display: -webkit-box;
@@ -41,16 +40,18 @@
   -webkit-align-items: center;
   align-items: center;
 }
-.css-1aquho2-MuiTabs-indicator  {
+.css-1aquho2-MuiTabs-indicator,
+.css-ttwr4n {
   border: 3px solid white !important;
   border-radius: 10px;
   height: 50px !important;
   background-color: transparent !important;
 }
-.tabsdetail{
-  padding: 10px 18px!important;
+.tabsdetail {
+  padding: 10px 18px !important;
+  overflow: hidden;
 }
-.scroller{
+.scroller {
   font-weight: 300;
   font-size: 48px;
   line-height: 100%;
@@ -59,16 +60,38 @@
   justify-content: center;
   align-items: center;
 }
-.MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer{
+.MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer ,.css-k008qs {
   margin-top: 10px;
 }
-.css-ktslay-MuiButtonBase-root-MuiIconButton-root{
-  opacity: 0.6!important;
+.css-ktslay-MuiButtonBase-root-MuiIconButton-root,
+.MuiButtonBase-root .MuiIconButton-root .MuiIconButton-sizeMedium, .css-e8vs8u {
+  opacity: 0.6 !important;
   /* background-color: rgba(0, 0, 0, 0.04); */
-
 }
 .buttonHidden {
-  opacity: "1",
+  opacity: "1";
+}
+.swiper-button-prev {
+  color: white !important;
+  padding: 100% 80px;
+  top: 0 !important;
+  background: linear-gradient(271.13deg, rgba(255, 255, 255, 0) 19.03%, #FFFFFD 50.76%), linear-gradient(270deg, rgba(255, 255, 255, 0) 1.03%, #FFFFFF 63.76%);
+  transform: rotate(0deg);
+}
+.swiper-button-next{
+  background: linear-gradient(271.13deg, rgba(255, 255, 255, 0) 1.03%, #FFFFFF 60.76%), linear-gradient(271.13deg, rgba(255, 255, 255, 0) 1.03%, #FFFFFF 60.76%);
+transform: rotate(180deg);
+color: white !important;
+  padding: 100% 80px;
+  top: 0 !important;
+}
+.swiper-button-prev{
+  opacity: 1 !important;
+  left: 0!important;
+}
+.swiper-button-next{
+  right: 0 !important;
+  opacity: 1 !important;
 }
 .App-header {
   background-color: #282c34;
@@ -84,54 +107,53 @@
 .App-link {
   color: #61dafb;
 }
-.footertop{
+.footertop {
   display: flex;
   justify-content: space-around;
-text-align: left;
-margin-top: 100px;
-margin-bottom: 100px;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-.footerlast{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 100;
-font-size: 12px;
-line-height: 100%;
-/* or 12px */
+.footerlast {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 100%;
+  /* or 12px */
 
-letter-spacing: -0.02em;
-text-transform: uppercase;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 
-color: #484848;
-
+  color: #484848;
 }
-.footerheading{
-  font-family: 'Poppins' !important;
-font-style: normal!important;
-font-weight: 700!important;
-font-size: 20px!important;
-line-height: 100%!important;
-/* or 20px */
+.footerheading {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 100% !important;
+  /* or 20px */
 
-letter-spacing: -0.02em;
-text-transform: uppercase;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 
-color: #484848;
+  color: #484848;
 }
-.footeritem{
-  font-family: 'Poppins'!important;
-font-style: normal !important;
-font-weight: 250 !important;
-font-size: 22px !important;
-line-height: 100% !important;
-/* or 22px */
-color: #484848;
-letter-spacing: -0.02em !important;
-text-transform: uppercase !important;
+.footeritem {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 250 !important;
+  font-size: 22px !important;
+  line-height: 100% !important;
+  /* or 22px */
+  color: #484848 !important;
+  letter-spacing: -0.02em !important;
+  text-transform: uppercase !important;
 
-color: #484848;
+  color: #484848;
 }
-.footertopborder{
+.footertopborder {
   width: auto;
   display: block;
   margin-top: 5px;
@@ -143,5 +165,112 @@ color: #484848;
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* media 1024px */
+@media screen and (max-width: 1024px){
+  .skullimg {
+  margin-top: -0 !important;
+  height: 125%;
+}
+.css-nhogle-MuiPaper-root-MuiCard-root {
+  max-width: 80%!important;
+}}
+/* media 768px */
+@media screen and (max-width: 768px){
+  .css-1ao61bn-MuiButtonBase-root-MuiButton-root{
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+  }
+  .css-dtfle8-MuiButtonBase-root-MuiButton-root{
+    margin-left: 0 !important;
+  }
+  .skullimg {
+    margin-top: -0 !important;
+    height: 100%;
+  }
+  .scroller{
+    flex-direction: column;
+  }
+  .css-nhogle-MuiPaper-root-MuiCard-root,.css-72xsun {
+    max-width: 80%!important;
+  }
+  .scroller span {
+    margin-right: 0!important;
+  }
+}
+.navcon{
+  /* text-align: center; */
+}
+@media screen and (max-width: 720px){
+  .navcon{
+    padding-top: 0 !important;
+    flex-direction: column-reverse;
+     align-items: center;
+    }
+    .css-1ao61bn-MuiButtonBase-root-MuiButton-root{
+    margin-left: 0 !important;
+  }
+  .skullimg {
+    height: 220PX;
+  }
+  .navpara{
+    width: 100%!important;
+    text-align: center;
+    
+}
+.navh3{
+  font-size: 26px!important;
+ /* text-align: center; */
+ 
+}
+.navbutton{
+  font-size: 10px!important;
+}
+.navtopcontanct{
+  text-align: center;
+  width: 100%!important;
+  padding-top: 20px !important;
+  
+}
+.scroller span {
+  margin-right: 0!important;
+}
+}
+
+@media screen and (max-width: 650px){
+.scroller span {
+  margin-right: 0!important;
+}
+.scroller{
+  margin-top: 42px;
+  font-size: 20px;
+}
+.MuiTabs-scroller.MuiTabs-fixed.css-jpln7h-MuiTabs-scroller,.css-k008qs {
+  
+  width: 370px;
+}
+.css-9tju2d-MuiPaper-root-MuiCard-root {
+  min-width: 250px;
+    margin-right: 90px;
+}
+.scheduletext{
+  font-size: 48px !important;
+}
+.footertop{
+  font-size: 80%;
+}
+.swiper-button-prev, .swiper-button-next{
+  padding: 100% 40px;
+}
+
+}
+@media screen and (max-width: 450px){
+  .footertop{
+    flex-direction: column;
   }
 }

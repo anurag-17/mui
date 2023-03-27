@@ -24,7 +24,9 @@ export const Schedule = () => {
                     textTransform: "uppercase",
 
                     color: "#FFFFFF",
+
                   }}
+                  className="scheduletext"
                 >
                   Want to have<br/>
 <span style={{fontWeight:"400"}}>our platform</span> for you patients<br/>

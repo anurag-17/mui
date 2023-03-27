@@ -21,7 +21,7 @@ import Container from "@mui/material/Container";
 import { fontSize, lineHeight } from "@mui/system";
 import "./Nav.css";
 export const Nav = () => {
-  const navItems = ["Home", "About", "Contact"];
+  const navItems = ["About Us", "Solutions", "Contact"];
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -52,11 +52,9 @@ export const Nav = () => {
   return (
     <>
       <div className="top_navBox">
-        <Box
-         
-        >
+        <Box>
           <CssBaseline />
-          <Container>
+          <Container maxWidth="xl">
             <AppBar
               component="nav"
               color="transparent"
@@ -81,7 +79,7 @@ export const Nav = () => {
                 </Typography>
                 <Box sx={{ display: { xs: "none", sm: "block" } }}>
                   {navItems.map((item) => (
-                    <Button key={item} sx={{ color: "#fff", ml: 5, mr: 5 }}>
+                    <Button key={item} sx={{ color: "#fff",}}>
                       {item}
                     </Button>
                   ))}
@@ -111,8 +109,11 @@ export const Nav = () => {
                 {drawer}
               </Drawer>
             </Box>
-            <div style={{ display: "flex", paddingTop: "80px" }}>
-              <Box sx={{ width: "55%", paddingTop: "40px" }}>
+            <div
+              className="navcon"
+              style={{ display: "flex", paddingTop: "80px" }}
+            >
+              <Box sx={{ width: "55%", paddingTop: "40px" }} className="navtopcontanct">
                 <Typography
                   variant="h1"
                   component="h3"
@@ -129,6 +130,7 @@ export const Nav = () => {
 
                     color: "#FFFFFF",
                   }}
+                  className="navh3"
                 >
                   The next Generation <br />
                   of Fracture Surgery
@@ -147,12 +149,14 @@ export const Nav = () => {
                     color: "#FFFFFF",
                     width: "66%",
                   }}
+                  className="navpara"
                 >
                   As a patient, you want the best treatment possible. When you
                   fracture a bone, you want the perfect fitting implant operated
                   with the highest precision.
                 </Typography>
                 <Button
+                className="navbutton"
                   variant="contained"
                   sx={{
                     color: "white",
@@ -175,7 +179,16 @@ export const Nav = () => {
                 </Button>
               </Box>
               <Box sx={{ width: "60%" }}>
-                <img width={'115%'}  height={'100%'}src={RectangleSKULL}/>
+                <img
+                  className="skullimg"
+                  width={"100%"}
+                  sizes="(max-width: 600px) 100vw,
+            (max-width: 960p  x) 50vw,
+            800px"
+                  style={{ marginTop: "30px" }}
+                  height={"100%"}
+                  src={RectangleSKULL}
+                />
               </Box>
             </div>
           </Container>
