@@ -84,7 +84,9 @@ export const Tabss = () => {
 
           <Carousel
             autoPlay={false}
-            navButtonsAlwaysInVisible={true}
+            navButtonsAlwaysInVisible={true}sx={{    buttonHidden:{
+              opacity :'1'
+          },}}
             next={() => {
               if (value == 1) {
                 setValue("2");

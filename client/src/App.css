@@ -62,6 +62,14 @@
 .MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer{
   margin-top: 10px;
 }
+.css-ktslay-MuiButtonBase-root-MuiIconButton-root{
+  opacity: 0.6!important;
+  /* background-color: rgba(0, 0, 0, 0.04); */
+
+}
+.buttonHidden {
+  opacity: "1",
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
