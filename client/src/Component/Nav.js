@@ -77,13 +77,13 @@ export const Nav = () => {
                 >
                   <img src={navimg} />
                 </Typography>
-                <Box sx={{ display: { xs: "none", sm: "block" } }}>
+                <Box sx={{ display: { xs: "none", sm: "flex" } ,width:"50%",justifyContent:"space-between"}}>
                   {navItems.map((item) => (
                     <Button key={item} sx={{ color: "#fff",}}>
                       {item}
                     </Button>
                   ))}
-                  <Button sx={{ color: "#fff", ml: 5 }}>
+                  <Button sx={{ color: "#fff" }}>
                     <img src={iconsvg} />
                   </Button>
                 </Box>
@@ -161,7 +161,7 @@ export const Nav = () => {
                   sx={{
                     color: "white",
                     backgroundColor: "#EDA147",
-                    padding: "12px 28px",
+                    padding: "18px 16px",
                     textTransform: "capitalize",
                     fontFamily: "Poppins",
                     fontStyle: "normal",
@@ -178,14 +178,13 @@ export const Nav = () => {
                   Schedule Appointment
                 </Button>
               </Box>
-              <Box sx={{ width: "60%" }}>
+              <Box sx={{ width: "70%" }}>
                 <img
                   className="skullimg"
                   width={"100%"}
                   sizes="(max-width: 600px) 100vw,
             (max-width: 960p  x) 50vw,
             800px"
-                  style={{ marginTop: "30px" }}
                   height={"100%"}
                   src={RectangleSKULL}
                 />

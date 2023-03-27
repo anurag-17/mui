@@ -34,11 +34,11 @@ export const Tabss = () => {
           <div className="scroller"
            
           >
-          <span style={{marginTop:"10px",marginRight:"50px"}}>   Benefits for</span>
+          <span style={{marginTop:"10px",marginLeft:"110px"}}>   Benefits for</span>
             <TabList
               onChange={handleChange}
               aria-label="lab API tabs example"
-              sx={{ justifyContent: "center",mt:"2px" }}
+              sx={{ justifyContent: "center",mt:"2px",ml:"50px" }}
             >
               <Tab className="tabsdetail"
                 disabled
@@ -147,7 +147,7 @@ export const Tabss = () => {
                       }}
                     >
                       {" "}
-                      <img width="80px" src={setting} />
+                      <img width="50px" src={setting} />
                       Lorem ipsum dolor sit, amet{" "}
                     </div>
                     <div
@@ -165,7 +165,7 @@ export const Tabss = () => {
                       }}
                     >
                       {" "}
-                      <img width="80px" src={home} />
+                      <img width="78px" src={add} />
                       Lorem ipsum dolor sit, amet{" "}
                     </div>
                     <div
@@ -183,7 +183,7 @@ export const Tabss = () => {
                       }}
                     >
                       {" "}
-                      <img width="140px" src={add} />
+                      <img width="50px" src={home} />
                       Lorem ipsum dolor sit, amet{" "}
                     </div>
                   </div>
@@ -191,7 +191,7 @@ export const Tabss = () => {
               </Card>
             </TabPanel>
             <TabPanel value="2">
-              <Card
+            <Card
                 sx={{
                   minWidth: 100,
                   maxWidth: "50%",
@@ -223,13 +223,13 @@ export const Tabss = () => {
                         justifyContent: "space-around",
                         textAlign: "center",
                         color: "white",
-                        fontSize: "24px",
+                         fontSize: {xl:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
                       }}
                     >
                       {" "}
-                      <img width="80px" src={setting} />
+                      <img width="50px" src={setting} />
                       Lorem ipsum dolor sit, amet{" "}
                     </div>
                     <div
@@ -241,13 +241,13 @@ export const Tabss = () => {
                         justifyContent: "space-around",
                         textAlign: "center",
                         color: "white",
-                        fontSize: "24px",
+                         fontSize: {xl:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
                       }}
                     >
                       {" "}
-                      <img width="80px" src={home} />
+                      <img width="78px" src={add} />
                       Lorem ipsum dolor sit, amet{" "}
                     </div>
                     <div
@@ -259,13 +259,13 @@ export const Tabss = () => {
                         justifyContent: "space-around",
                         textAlign: "center",
                         color: "white",
-                        fontSize: "24px",
+                         fontSize: {lg:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
                       }}
                     >
                       {" "}
-                      <img width="140px" src={add} />
+                      <img width="50px" src={home} />
                       Lorem ipsum dolor sit, amet{" "}
                     </div>
                   </div>
@@ -273,7 +273,7 @@ export const Tabss = () => {
               </Card>
             </TabPanel>
             <TabPanel value="3">
-              <Card
+            <Card
                 sx={{
                   minWidth: 100,
                   maxWidth: "50%",
@@ -305,13 +305,13 @@ export const Tabss = () => {
                         justifyContent: "space-around",
                         textAlign: "center",
                         color: "white",
-                        fontSize: "24px",
+                         fontSize: {xl:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
                       }}
                     >
                       {" "}
-                      <img width="80px" src={setting} />
+                      <img width="50px" src={setting} />
                       Lorem ipsum dolor sit, amet{" "}
                     </div>
                     <div
@@ -323,13 +323,13 @@ export const Tabss = () => {
                         justifyContent: "space-around",
                         textAlign: "center",
                         color: "white",
-                        fontSize: "24px",
+                         fontSize: {xl:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
                       }}
                     >
                       {" "}
-                      <img width="80px" src={home} />
+                      <img width="78px" src={add} />
                       Lorem ipsum dolor sit, amet{" "}
                     </div>
                     <div
@@ -341,13 +341,13 @@ export const Tabss = () => {
                         justifyContent: "space-around",
                         textAlign: "center",
                         color: "white",
-                        fontSize: "24px",
+                         fontSize: {lg:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
                       }}
                     >
                       {" "}
-                      <img width="140px" src={add} />
+                      <img width="50px" src={home} />
                       Lorem ipsum dolor sit, amet{" "}
                     </div>
                   </div>

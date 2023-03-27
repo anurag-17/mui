@@ -52,14 +52,17 @@ or healthcare system?
                 <Button
                   variant="contained"
                   sx={{
+                    padding: '16px 32px',
+                    fontFamily: 'Poppins',
+                    fontStyle: 'normal',
+                    fontWeight:' 700',
+                    fontSize: '17px',
+                    lineHeight: '120%',
+                    letterSpacing: '-0.02em',
+                    color: '#091A2A',
                     color: "black",
                     backgroundColor: "#fff",
-                    padding: "12px 28px",
-                    textTransform: "capitalize",
                     fontFamily: "Poppins",
-                    fontStyle: "normal",
-                    fontWeight: "300",
-                    fontSize: " 20px",
                     borderRadius: "12px",
                     marginTop: "36px",
                     "&:hover": {

@@ -367,8 +367,8 @@ export const Carddeower = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-          <div style={{ marginTop: "70px" }}>
-            <h1>Keep the number of medical errors to a minimum.</h1>
+          <div style={{ marginTop: "70px",marginBottom: "130px" }}>
+            <h1 className="carddrowerlast">Keep the number of medical errors to a minimum.</h1>
             <img src={banner} width={"100%"} />
           </div>
         </div>

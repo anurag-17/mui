@@ -57,7 +57,7 @@
   line-height: 100%;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer ,.css-k008qs {
@@ -147,7 +147,7 @@ color: white !important;
   font-size: 22px !important;
   line-height: 100% !important;
   /* or 22px */
-  color: #484848 !important;
+  color: #8d8c8c !important;
   letter-spacing: -0.02em !important;
   text-transform: uppercase !important;
 
