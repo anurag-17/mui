@@ -1,0 +1,44 @@
+.tab_text {
+    text-transform: capitalize !important;
+}
+
+
+
+
+@media (max-width:767px) {
+    .scroller {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .span_tabs-benefits {
+        margin-left: 0!important;
+    }
+    .tablist-ml{
+        margin-left: 0 !important;
+    }
+}
+@media (max-width:650px) {
+    .span_tabs-benefits{
+        font-size: 27px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+
+    }
+    .scroller{
+        align-items: normal;
+    }
+}
+@media (max-width:424px) {
+    .coursel_box{
+        display: flex !important;
+        flex-direction: column !important;
+       
+    }
+    .coursel_boxA{
+      height: auto !important;
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+}
