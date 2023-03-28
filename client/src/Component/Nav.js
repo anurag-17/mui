@@ -85,7 +85,7 @@ export const Nav = () => {
                   }}
                 >
                   {navItems.map((item) => (
-                    <Button key={item} sx={{ color: "#fff" }}>
+                    <Button key={item} sx={{ color: "#fff",fontFamily:"poppins",textTransform:"capitalize" }}>
                       {item}
                     </Button>
                   ))}

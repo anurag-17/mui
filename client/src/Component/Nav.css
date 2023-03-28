@@ -1,55 +1,56 @@
-.top_navBox{
- background: url('../Img/MangoMedicalBanner.svg')no-repeat;
- background-position: center;
- height: 715px;
- width: 100%;
- background-size: cover;
- /* text-align: center; */
+.top_navBox {
+  background: url("../Img/MangoMedicalBanner.svg") no-repeat;
+  background-position: center;
+  height: 715px;
+  width: 100%;
+  background-size: cover;
+  /* text-align: center; */
 }
 
-.img_Wave{
-    bottom: -50px;
-   display: flex;
-    width: 100%;
-    /* aspect-ratio: 3/2; */
-    justify-content: center;
-
-    
+.img_Wave {
+  bottom: -50px;
+  display: flex;
+  width: 100%;
+  /* aspect-ratio: 3/2; */
+  justify-content: center;
 }
 /* .img_Wave img{
     
 } */
-.top_tabs{
-    background: url('../Img/MangoMedicalSection.svg')no-repeat;
-    background-position: center;
-    height: 880px;
-    width: 100%;
-    display: flex;
-    background-size: cover;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
+.top_tabs {
+  background: url("../Img/MangoMedicalSection.svg") no-repeat;
+  background-position: center;
+  height: 890px;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
 }
-.MuiCard-root{
-    margin: 0 auto;
-    
+.MuiCard-root {
+  margin: 0 auto;
 }
-.carddrowerlast{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 120%;
-/* identical to box height, or 29px */
+.carddrowerlast {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
 
-letter-spacing: -0.02em;
+  letter-spacing: -0.02em;
 
-color: #091A2A;
-
+  color: #091a2a;
 }
 .css-1riujay {
-    width: 50%;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
+  width: 50%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.scrollimg2 {
+  position: absolute;
+  top: 50%;
+  right: 10%;
 }
