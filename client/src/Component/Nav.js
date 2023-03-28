@@ -80,16 +80,16 @@ export const Nav = () => {
                 <Box
                   sx={{
                     display: { xs: "none", sm: "flex" },
-                    width: "50%",
+                    width: "43%",
                     justifyContent: "space-between",
                   }}
                 >
                   {navItems.map((item) => (
-                    <Button key={item} sx={{ color: "#fff", fontFamily: "poppins", textTransform: "capitalize" }}>
+                    <Button key={item} sx={{ color: "#fff", fontFamily: "poppins", textTransform: "capitalize" ,fontWeight:"600"}}>
                       {item}
                     </Button>
                   ))}
-                  <Button sx={{ color: "#fff" }}>
+                  <Button sx={{ color: "#fff",fontWeight:"600" }}>
                     <img src={iconsvg} />
                   </Button>
                 </Box>
@@ -184,7 +184,7 @@ export const Nav = () => {
                     fontWeight: "900",
                     fontSize: " 20px",
                     borderRadius: "12px",
-                    marginTop: "36px",
+                    marginTop: "50px",
                     "&:hover": {
                       //you want this to be the same as the backgroundColor above
                       backgroundColor: "#EDA147",

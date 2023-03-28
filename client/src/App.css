@@ -124,7 +124,7 @@ color: white !important;
 
   letter-spacing: -0.02em;
   text-transform: uppercase;
-
+  padding-left: 83px;
   color: #484848;
 }
 .footerheading {
@@ -205,6 +205,11 @@ color: white !important;
 }
 .navcon{
   /* text-align: center; */
+}
+.sacbut{
+  padding: 18px 46px !important;
+  font-weight: 600 !important;
+  text-transform: capitalize!important;
 }
 @media screen and (max-width: 720px){
   .navcon{
