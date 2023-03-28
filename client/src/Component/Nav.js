@@ -77,9 +77,15 @@ export const Nav = () => {
                 >
                   <img src={navimg} />
                 </Typography>
-                <Box sx={{ display: { xs: "none", sm: "flex" } ,width:"50%",justifyContent:"space-between"}}>
+                <Box
+                  sx={{
+                    display: { xs: "none", sm: "flex" },
+                    width: "50%",
+                    justifyContent: "space-between",
+                  }}
+                >
                   {navItems.map((item) => (
-                    <Button key={item} sx={{ color: "#fff",}}>
+                    <Button key={item} sx={{ color: "#fff" }}>
                       {item}
                     </Button>
                   ))}
@@ -111,9 +117,19 @@ export const Nav = () => {
             </Box>
             <div
               className="navcon"
-              style={{ display: "flex", paddingTop: "80px" }}
+              style={{
+                display: "flex",
+                paddingTop: "80px",
+                // display: "flex",
+                // paddingTop: "80px",
+                // width: "95%",
+                // margin: "0 auto",
+              }}
             >
-              <Box sx={{ width: "55%", paddingTop: "40px" }} className="navtopcontanct">
+              <Box
+                sx={{ width: "55%", paddingTop: "60px" }}
+                className="navtopcontanct"
+              >
                 <Typography
                   variant="h1"
                   component="h3"
@@ -156,7 +172,7 @@ export const Nav = () => {
                   with the highest precision.
                 </Typography>
                 <Button
-                className="navbutton"
+                  className="navbutton"
                   variant="contained"
                   sx={{
                     color: "white",
@@ -178,7 +194,7 @@ export const Nav = () => {
                   Schedule Appointment
                 </Button>
               </Box>
-              <Box sx={{ width: "70%" }}>
+              <Box sx={{ width: "60%" }}>
                 <img
                   className="skullimg"
                   width={"100%"}
