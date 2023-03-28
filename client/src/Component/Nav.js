@@ -85,7 +85,7 @@ export const Nav = () => {
                   }}
                 >
                   {navItems.map((item) => (
-                    <Button key={item} sx={{ color: "#fff",fontFamily:"poppins",textTransform:"capitalize" }}>
+                    <Button key={item} sx={{ color: "#fff", fontFamily: "poppins", textTransform: "capitalize" }}>
                       {item}
                     </Button>
                   ))}
@@ -163,7 +163,7 @@ export const Nav = () => {
                     letterSpacing: " -0.02em",
 
                     color: "#FFFFFF",
-                    width: "66%",
+                    // width: "66",
                   }}
                   className="navpara"
                 >
@@ -177,7 +177,7 @@ export const Nav = () => {
                   sx={{
                     color: "white",
                     backgroundColor: "#EDA147",
-                    padding: "18px 16px",
+                    padding: "18px 28px",
                     textTransform: "capitalize",
                     fontFamily: "Poppins",
                     fontStyle: "normal",
@@ -197,11 +197,7 @@ export const Nav = () => {
               <Box sx={{ width: "60%" }}>
                 <img
                   className="skullimg"
-                  width={"100%"}
-                  sizes="(max-width: 600px) 100vw,
-            (max-width: 960p  x) 50vw,
-            800px"
-                  height={"100%"}
+                 
                   src={RectangleSKULL}
                 />
               </Box>
