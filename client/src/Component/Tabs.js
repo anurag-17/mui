@@ -18,6 +18,8 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabPanel from "@mui/lab/TabPanel";
 import { TabList } from "@mui/lab";
+import "./Tabs.css"
+import { Container } from "@mui/material";
 export const Tabss = () => {
   const [value, setValue] = React.useState("1");
 
@@ -31,56 +33,59 @@ export const Tabss = () => {
     <>
       <div className="top_tabs">
         <TabContext value={value}>
-          <div className="scroller"
+         <Container>
+         <div className="scroller"
            
-          >
-          <span style={{marginTop:"10px",marginLeft:"110px"}}>   Benefits for</span>
-            <TabList
-              onChange={handleChange}
-              aria-label="lab API tabs example"
-              sx={{ justifyContent: "center",mt:"2px",ml:"50px" }}
-            >
-              <Tab className="tabsdetail"
-                disabled
-                sx={{
-                  color: "white",
-                  fonStyle: "normal",
-                  fontWeight: 300,
-                  fontSize: "28px",
-                  lineHeight: "100%",
-                  color: "white",
-                }}
-                label="Surgeons"
-                value="1"
-              />
-              <Tab className="tabsdetail"
-                disabled
-                sx={{
-                  color: "white",
-                  fonStyle: "normal",
-                  fontWeight: 300,
-                  fontSize: "28px",
-                  lineHeight: "100%",
-                  color: "white",
-                }}
-                label="Patient"
-                value="2"
-              />
-              <Tab className="tabsdetail"
-                disabled
-                sx={{
-                  color: "white",
-                  fonStyle: "normal",
-                  fontWeight: 300,
-                  fontSize: "28px",
-                  lineHeight: "100%",
-                  color: "white",
-                }}
-                label="Healthcare System"
-                value="3"
-              />
-            </TabList>
-          </div>
+           >
+           <span style={{marginTop:"10px"}} className="span_tabs-benefits">   Benefits for</span>
+             <TabList
+             className="tablist-ml"
+               onChange={handleChange}
+               aria-label="lab API tabs example"
+               sx={{ justifyContent: "center",mt:"2px",ml:"50px" }}
+             >
+               <Tab className="tabsdetail tab_text"
+                 disabled
+                 sx={{
+                   color: "white",
+                   fonStyle: "normal",
+                   fontWeight: 300,
+                   fontSize: "28px",
+                   lineHeight: "100%",
+                   color: "white",
+                 }}
+                 label="Surgeons"
+                 value="1"
+               />
+               <Tab className="tabsdetail tab_text"
+                 disabled
+                 sx={{
+                   color: "white",
+                   fonStyle: "normal",
+                   fontWeight: 300,
+                   fontSize: "28px",
+                   lineHeight: "100%",
+                   color: "white",
+                 }}
+                 label="Patient"
+                 value="2"
+               />
+               <Tab className="tabsdetail tab_text"
+                 disabled
+                 sx={{
+                   color: "white",
+                   fonStyle: "normal",
+                   fontWeight: 300,
+                   fontSize: "28px",
+                   lineHeight: "100%",
+                   color: "white",
+                 }}
+                 label="Healthcare System"
+                 value="3"
+               />
+             </TabList>
+           </div>
+         </Container>
 
           <Carousel
             autoPlay={false}
@@ -131,6 +136,7 @@ export const Tabss = () => {
                       alignItems: "center",
                       textAlign: "center",
                     }}
+                    className="coursel_box"
                   >
                     <div
                       style={{
@@ -145,6 +151,7 @@ export const Tabss = () => {
                         lineHeight: "24px",
                         width: "30%",
                       }}
+                      className="coursel_boxA"
                     >
                       {" "}
                       <img width="50px" src={setting} />
@@ -162,7 +169,9 @@ export const Tabss = () => {
                          fontSize: {xl:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
+
                       }}
+                      className="coursel_boxA"
                     >
                       {" "}
                       <img width="78px" src={add} />
@@ -181,6 +190,7 @@ export const Tabss = () => {
                         lineHeight: "24px",
                         width: "30%",
                       }}
+                      className="coursel_boxA"
                     >
                       {" "}
                       <img width="50px" src={home} />
@@ -213,6 +223,7 @@ export const Tabss = () => {
                       alignItems: "center",
                       textAlign: "center",
                     }}
+                    className="coursel_box"
                   >
                     <div
                       style={{
@@ -227,6 +238,7 @@ export const Tabss = () => {
                         lineHeight: "24px",
                         width: "30%",
                       }}
+                      className="coursel_boxA"
                     >
                       {" "}
                       <img width="50px" src={setting} />
@@ -245,6 +257,7 @@ export const Tabss = () => {
                         lineHeight: "24px",
                         width: "30%",
                       }}
+                      className="coursel_boxA"
                     >
                       {" "}
                       <img width="78px" src={add} />
@@ -263,6 +276,7 @@ export const Tabss = () => {
                         lineHeight: "24px",
                         width: "30%",
                       }}
+                      className="coursel_boxA"
                     >
                       {" "}
                       <img width="50px" src={home} />
@@ -295,6 +309,7 @@ export const Tabss = () => {
                       alignItems: "center",
                       textAlign: "center",
                     }}
+                    className="coursel_box"
                   >
                     <div
                       style={{
@@ -309,6 +324,7 @@ export const Tabss = () => {
                         lineHeight: "24px",
                         width: "30%",
                       }}
+                      className="coursel_boxA"
                     >
                       {" "}
                       <img width="50px" src={setting} />
@@ -327,6 +343,7 @@ export const Tabss = () => {
                         lineHeight: "24px",
                         width: "30%",
                       }}
+                      className="coursel_boxA"
                     >
                       {" "}
                       <img width="78px" src={add} />
@@ -345,6 +362,7 @@ export const Tabss = () => {
                         lineHeight: "24px",
                         width: "30%",
                       }}
+                      className="coursel_boxA"
                     >
                       {" "}
                       <img width="50px" src={home} />

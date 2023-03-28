@@ -13,10 +13,12 @@
     width: 100%;
     /* aspect-ratio: 3/2; */
     justify-content: center;
+
     
 }
-.img_Wave img{
-}
+/* .img_Wave img{
+    
+} */
 .top_tabs{
     background: url('../Img/MangoMedicalSection.svg')no-repeat;
     background-position: center;
