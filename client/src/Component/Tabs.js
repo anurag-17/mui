@@ -114,15 +114,15 @@ export const Tabss = () => {
             PrevIcon={<Prev />}
           >
             <TabPanel value="1" sx={{mt:'10px'}}>
-              <Card
+            <Card
                 sx={{
                   minWidth: 100,
                   maxWidth: "50%",
                   borderRadius: "30px",
                   height: "350px",
                   WebkitBackdropFilter: "blur(5px)",
-                  backdropFilter: "blur(px)",
-                  backgroundColor: "#ffffff29 ",
+                  backdropFilter: "blur(5px)",
+                  backgroundColor: "#ffffff52 ",
                   justifyContent: "center",
                   display: "flex",
                   alignItems: "center",
@@ -169,7 +169,6 @@ export const Tabss = () => {
                          fontSize: {xl:'24',sm:"20"},
                         lineHeight: "24px",
                         width: "30%",
-
                       }}
                       className="coursel_boxA"
                     >
