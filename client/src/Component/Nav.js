@@ -34,7 +34,7 @@ export const Nav = () => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        <img src={navimg} />
+        <img className="logo_img" src={navimg} />
       </Typography>
       <Divider />
       <List>
@@ -52,6 +52,7 @@ export const Nav = () => {
   return (
     <>
       <div className="top_navBox">
+       
         <Box>
           <CssBaseline />
           <Container maxWidth="xl">
@@ -75,14 +76,16 @@ export const Nav = () => {
                   component="div"
                   sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
                 >
-                  <img src={navimg} />
+                  <img className="logo_img" src={navimg} />
                 </Typography>
                 <Box
+                  className="navmenu_box"
                   sx={{
                     display: { xs: "none", sm: "flex" },
-                    width: "43%",
+                    width: "45%",
                     justifyContent: "space-between",
                   }}
+                  
                 >
                   {navItems.map((item) => (
                     <Button key={item} sx={{ color: "#fff", fontFamily: "poppins", textTransform: "capitalize" ,fontWeight:"600"}}>
@@ -204,7 +207,7 @@ export const Nav = () => {
             </div>
           </Container>
         </Box>
-    
+        <div className="wave1_nav"></div>
       </div>
       {/* <Box
         sx={{

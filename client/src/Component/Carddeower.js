@@ -63,15 +63,173 @@ export const Carddeower = () => {
                 spaceBetween: 0,
               },
               320: {
-                slidesPerView: 20,
+                slidesPerView: 1,
+                spaceBetween: 0,
               },
             }}
             modules={[Pagination, Navigation]}
-            className="mySwiper "
+            className="mySwiper"
           >
             <SwiperSlide>
               <div>
                 <Card
+                   className= "card_swiper"
+                  sx={{
+                    minWidth: 300,
+                    marginRight: "150px",
+                    backgroundColor: "#91C58E",
+                    borderRadius: "30px",
+                    mr: "30px",
+                  }}
+                >
+                  <CardContent>
+                    <img src={caredimg} />
+                    <Typography
+                      variant="h1 "
+                      component="div"
+                      sx={{
+                        fontSize: 20,
+                        fontWeight: "700",
+                        size: "0px",
+                        lineheight: "20px",
+                        marginBottom: "20px",
+                      }}
+                      color="text.secondary"
+                      gutterBottom
+                    >
+                      Surgeonss
+                    </Typography>
+                    <Typography
+                      variant="h5"
+                      component="div"
+                      sx={{
+                        fontSize: 24,
+                        fontWeight: "700",
+                        size: "24px",
+                        lineheight: "24px",
+                        marginBottom: "20px",
+                      }}
+                    >
+                      Peter Linh, DMD
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      Surgeon specialized
+                      <br /> in 3D applications <br />
+                      and surgical planning
+                    </Typography>
+                    <img src={StanfordBusiness} width={"35%"} />
+                  </CardContent>
+                </Card>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <Card
+                className= "card_swiper"
+                  sx={{
+                    minWidth: 300,
+                    marginRight: "150px",
+                    backgroundColor: "#91C58E",
+                    borderRadius: "30px",
+                    mr: "30px",
+                  }}
+                >
+                  <CardContent>
+                    <img src={caredimg} />
+                    <Typography
+                      variant="h1 "
+                      component="div"
+                      sx={{
+                        fontSize: 20,
+                        fontWeight: "700",
+                        size: "0px",
+                        lineheight: "20px",
+                        marginBottom: "20px",
+                      }}
+                      color="text.secondary"
+                      gutterBottom
+                    >
+                      Surgeonss
+                    </Typography>
+                    <Typography
+                      variant="h5"
+                      component="div"
+                      sx={{
+                        fontSize: 24,
+                        fontWeight: "700",
+                        size: "24px",
+                        lineheight: "24px",
+                        marginBottom: "20px",
+                      }}
+                    >
+                      Peter Linh, DMD
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      Surgeon specialized
+                      <br /> in 3D applications <br />
+                      and surgical planning
+                    </Typography>
+                    <img src={StanfordBusiness} width={"35%"} />
+                  </CardContent>
+                </Card>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <Card
+                className= "card_swiper"
+                  sx={{
+                    minWidth: 300,
+                    marginRight: "150px",
+                    backgroundColor: "#91C58E",
+                    borderRadius: "30px",
+                    mr: "30px",
+                  }}
+                >
+                  <CardContent>
+                    <img src={caredimg} />
+                    <Typography
+                      variant="h1 "
+                      component="div"
+                      sx={{
+                        fontSize: 20,
+                        fontWeight: "700",
+                        size: "0px",
+                        lineheight: "20px",
+                        marginBottom: "20px",
+                      }}
+                      color="text.secondary"
+                      gutterBottom
+                    >
+                      Surgeon
+                    </Typography>
+                    <Typography
+                      variant="h5"
+                      component="div"
+                      sx={{
+                        fontSize: 24,
+                        fontWeight: "700",
+                        size: "24px",
+                        lineheight: "24px",
+                        marginBottom: "20px",
+                      }}
+                    >
+                      Peter Linh, DMD
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      Surgeon specialized aasasasas
+                      <br /> in 3D applications <br />
+                      and surgical planning
+                    </Typography>
+                    <img src={StanfordBusiness} width={"35%"} />
+                  </CardContent>
+                </Card>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <Card
+                className= "card_swiper"
                   sx={{
                     minWidth: 300,
                     marginRight: "150px",
@@ -123,6 +281,7 @@ export const Carddeower = () => {
             <SwiperSlide>
               <div>
                 <Card
+                className= "card_swiper"
                   sx={{
                     minWidth: 300,
                     marginRight: "150px",
@@ -174,159 +333,7 @@ export const Carddeower = () => {
             <SwiperSlide>
               <div>
                 <Card
-                  sx={{
-                    minWidth: 300,
-                    marginRight: "150px",
-                    backgroundColor: "#91C58E",
-                    borderRadius: "30px",
-                    mr: "30px",
-                  }}
-                >
-                  <CardContent>
-                    <img src={caredimg} />
-                    <Typography
-                      variant="h1 "
-                      component="div"
-                      sx={{
-                        fontSize: 20,
-                        fontWeight: "700",
-                        size: "0px",
-                        lineheight: "20px",
-                        marginBottom: "20px",
-                      }}
-                      color="text.secondary"
-                      gutterBottom
-                    >
-                      Surgeon
-                    </Typography>
-                    <Typography
-                      variant="h5"
-                      component="div"
-                      sx={{
-                        fontSize: 24,
-                        fontWeight: "700",
-                        size: "24px",
-                        lineheight: "24px",
-                        marginBottom: "20px",
-                      }}
-                    >
-                      Peter Linh, DMD
-                    </Typography>
-                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                      Surgeon specialized
-                      <br /> in 3D applications <br />
-                      and surgical planning
-                    </Typography>
-                    <img src={StanfordBusiness} width={"35%"} />
-                  </CardContent>
-                </Card>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <Card
-                  sx={{
-                    minWidth: 300,
-                    marginRight: "150px",
-                    backgroundColor: "#91C58E",
-                    borderRadius: "30px",
-                    mr: "30px",
-                  }}
-                >
-                  <CardContent>
-                    <img src={caredimg} />
-                    <Typography
-                      variant="h1 "
-                      component="div"
-                      sx={{
-                        fontSize: 20,
-                        fontWeight: "700",
-                        size: "0px",
-                        lineheight: "20px",
-                        marginBottom: "20px",
-                      }}
-                      color="text.secondary"
-                      gutterBottom
-                    >
-                      Surgeon
-                    </Typography>
-                    <Typography
-                      variant="h5"
-                      component="div"
-                      sx={{
-                        fontSize: 24,
-                        fontWeight: "700",
-                        size: "24px",
-                        lineheight: "24px",
-                        marginBottom: "20px",
-                      }}
-                    >
-                      Peter Linh, DMD
-                    </Typography>
-                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                      Surgeon specialized
-                      <br /> in 3D applications <br />
-                      and surgical planning
-                    </Typography>
-                    <img src={StanfordBusiness} width={"35%"} />
-                  </CardContent>
-                </Card>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <Card
-                  sx={{
-                    minWidth: 300,
-                    marginRight: "150px",
-                    backgroundColor: "#91C58E",
-                    borderRadius: "30px",
-                    mr: "30px",
-                  }}
-                >
-                  <CardContent>
-                    <img src={caredimg} />
-                    <Typography
-                      variant="h1 "
-                      component="div"
-                      sx={{
-                        fontSize: 20,
-                        fontWeight: "700",
-                        size: "0px",
-                        lineheight: "20px",
-                        marginBottom: "20px",
-                      }}
-                      color="text.secondary"
-                      gutterBottom
-                    >
-                      Surgeon
-                    </Typography>
-                    <Typography
-                      variant="h5"
-                      component="div"
-                      sx={{
-                        fontSize: 24,
-                        fontWeight: "700",
-                        size: "24px",
-                        lineheight: "24px",
-                        marginBottom: "20px",
-                      }}
-                    >
-                      Peter Linh, DMD
-                    </Typography>
-                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                      Surgeon specialized
-                      <br /> in 3D applications <br />
-                      and surgical planning
-                    </Typography>
-                    <img src={StanfordBusiness} width={"35%"} />
-                  </CardContent>
-                </Card>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <Card
+                className= "card_swiper"
                   sx={{
                     minWidth: 300,
                     marginRight: "150px",

@@ -14,7 +14,9 @@ export const Schedule = () => {
     <div style={{ display: "flex", paddingTop: "80px" }}>
               <Box sx={{ paddingTop: "40px" }}>
                 <Typography
+                  
                   variant="h1"
+                  
                   component="h3"
                   sx={{
                     fontFamily: "Poppins",
@@ -32,9 +34,8 @@ export const Schedule = () => {
                   }}
                   className="scheduletext"
                 >
-                  Want to have<br/>
-<span style={{fontWeight:"400"}}>our platform</span> for you patients<br/>
-or healthcare system? 
+                  Want to have<br className="displaybr_none"/>
+<span style={{fontWeight:"400"}}> our platform</span> for you patients<br className="displaybr_none"/> or healthcare system? 
                 </Typography>
                 <Typography
                   sx={{

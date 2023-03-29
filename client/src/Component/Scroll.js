@@ -2,6 +2,7 @@ import React from "react";
 import images from "../Img/image 4.svg";
 import sCROL from "../Img/image 5.svg";
 import Container from "@mui/material/Container";
+import zIndex from "@mui/material/styles/zIndex";
 
 export const Scroll = () => {
   const scrolldown=()=>{
@@ -20,7 +21,8 @@ export const Scroll = () => {
           alignItems: "center",
           paddingTop:"51px",
           paddingBottom:"150px",
-          position:'relative'
+          position:'relative',
+          // zIndex: '-5'
         }}
         >
         <img width={"50%"} src={images} />

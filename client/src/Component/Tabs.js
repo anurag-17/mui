@@ -40,7 +40,9 @@ export const Tabss = () => {
          <div className="scroller"
            
            >
-           <span style={{marginTop:"10px"}} className="span_tabs-benefits">   Benefits for</span>
+           <span 
+          //  style={{marginTop:"10px"}} 
+           className="span_tabs-benefits">Benefits for</span>
              <TabList
              className="tablist-ml"
                onChange={handleChange}

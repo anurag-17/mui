@@ -2,7 +2,9 @@
     text-transform: capitalize !important;
 }
 
-
+/* .span_tabs-benefits{
+    margin-bottom: 20px;
+} */
 
 
 @media (max-width:767px) {
@@ -26,8 +28,9 @@
         margin-bottom: 10px;
 
     }
-    .scroller{
-        align-items: normal;
+  
+    .tab_text{
+        font-size: 20px !important;
     }
 }
 @media (max-width:424px) {
@@ -36,9 +39,15 @@
         flex-direction: column !important;
        
     }
+    .scroller{
+        overflow: hidden;
+    }
     .coursel_boxA{
       height: auto !important;
         width: 100% !important;
         margin: 10px 0 !important;
+    }
+    .tab_text{
+        font-size: 10px !important;
     }
 }
