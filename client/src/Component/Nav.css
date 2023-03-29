@@ -1,5 +1,5 @@
 .top_navBox {
-  background: url("../Img/MangoMedicalBanner.svg") no-repeat;
+  background: url("../Img/MangoMedicalBanner.svg") ,no-repeat;
   background-position: center;
   height: 715px;
   width: 100%;
@@ -18,16 +18,19 @@
     
 } */
 .top_tabs {
-  background: url("../Img/MangoMedicalSection.svg") no-repeat;
+  background: url("../Img/Rectangle 3.png") no-repeat;
   background-position: center;
-  height: 890px;
-  width: 100%;
+  height: 1053px;
+  width: 101%;
   display: flex;
   background-size: cover;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  position: relative;
+
 }
+
 .MuiCard-root {
   margin: 0 auto;
 }
@@ -64,4 +67,38 @@
     padding-top: 50px;
     
   }
+}
+.wavesall{
+width: 100%;
+height: 300px;
+}
+.wave1{
+  background: url("../Img/Mask group (1).svg")no-repeat;
+  width: 100%;
+  width: 100%;
+    height: 307px;
+    background-size: cover;
+    position: absolute;
+    top: -4px;
+    filter: drop-shadow(0px 14px 2px rgba(0, 0, 0, 0.25));
+    line-height: 0;
+    z-index: 171;
+    background-position: center;
+
+}
+.wave2{
+  background: url("../Img/Mask\ group2.svg")no-repeat;
+  width: 100%;
+  height: 237px;
+  background-size: cover;
+  position: absolute;
+  bottom: -10px;
+  line-height: 0;
+  background-position: center;
+
+}
+
+/*  dots   */
+.css-1m9128y {
+  display: none;
 }

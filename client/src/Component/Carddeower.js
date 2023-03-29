@@ -62,6 +62,9 @@ export const Carddeower = () => {
                 slidesPerView: 4,
                 spaceBetween: 0,
               },
+              320: {
+                slidesPerView: 20,
+              },
             }}
             modules={[Pagination, Navigation]}
             className="mySwiper "
@@ -74,9 +77,7 @@ export const Carddeower = () => {
                     marginRight: "150px",
                     backgroundColor: "#91C58E",
                     borderRadius: "30px",
-                    mr:"30px"
-
-                  
+                    mr: "30px",
                   }}
                 >
                   <CardContent>
@@ -127,8 +128,7 @@ export const Carddeower = () => {
                     marginRight: "150px",
                     backgroundColor: "#91C58E",
                     borderRadius: "30px",
-                    mr:"30px"
-
+                    mr: "30px",
                   }}
                 >
                   <CardContent>
@@ -179,8 +179,7 @@ export const Carddeower = () => {
                     marginRight: "150px",
                     backgroundColor: "#91C58E",
                     borderRadius: "30px",
-                    mr:"30px"
-
+                    mr: "30px",
                   }}
                 >
                   <CardContent>
@@ -231,8 +230,7 @@ export const Carddeower = () => {
                     marginRight: "150px",
                     backgroundColor: "#91C58E",
                     borderRadius: "30px",
-                    mr:"30px"
-
+                    mr: "30px",
                   }}
                 >
                   <CardContent>
@@ -283,8 +281,7 @@ export const Carddeower = () => {
                     marginRight: "150px",
                     backgroundColor: "#91C58E",
                     borderRadius: "30px",
-                    mr:"30px"
-
+                    mr: "30px",
                   }}
                 >
                   <CardContent>
@@ -335,8 +332,7 @@ export const Carddeower = () => {
                     marginRight: "150px",
                     backgroundColor: "#91C58E",
                     borderRadius: "30px",
-                    mr:"30px"
-
+                    mr: "30px",
                   }}
                 >
                   <CardContent>
@@ -380,8 +376,10 @@ export const Carddeower = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-          <div style={{ marginTop: "192px",marginBottom: "55px" }}>
-            <h1 className="carddrowerlast">Keep the number of medical errors to a minimum.</h1>
+          <div style={{ marginTop: "192px", marginBottom: "55px" }}>
+            <h1 className="carddrowerlast">
+              Keep the number of medical errors to a minimum.
+            </h1>
             <img src={banner} width={"100%"} />
           </div>
         </div>

@@ -75,11 +75,11 @@
   color: white !important;
   padding: 100% 80px;
   top: 1px !important;
-  background: linear-gradient(271.13deg, rgba(255, 255, 255, 0) 19.03%, #FFFFFD 50.76%), linear-gradient(270deg, rgba(255, 255, 255, 0) 1.03%, #FFFFFF 63.76%);
+  background: linear-gradient(270.13deg, rgba(255, 255, 255, 0) 19.03%, #FFFFFD 45.76%), linear-gradient(270deg, rgba(255, 255, 255, 0) 6.03%, #FFFFFF 63.76%);
   transform: rotate(0deg);
 }
 .swiper-button-next{
-  background: linear-gradient(271.13deg, rgba(255, 255, 255, 0) 1.03%, #FFFFFF 60.76%), linear-gradient(271.13deg, rgba(255, 255, 255, 0) 1.03%, #FFFFFF 60.76%);
+  background: linear-gradient(271.13deg, rgba(255, 255, 255, 0) 1.03%, #FFFFFF 60.76%), linear-gradient(271.13deg, rgba(255, 255, 255, 0) 6.03%, #FFFFFF 60.76%);
 transform: rotate(180deg);
 color: white !important;
   padding: 100% 80px;
@@ -280,5 +280,8 @@ color: white !important;
 @media screen and (max-width: 450px){
   .footertop{
     flex-direction: column;
+  }
+  .footerlast{
+    padding-left: 0;
   }
 }

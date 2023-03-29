@@ -6,6 +6,10 @@ import Typography from "@mui/material/Typography";
 export const Schedule = () => {
   return <>
     <div className="top_tabs">
+    <div className="wave1"> </div>
+    <div className="wave2"> </div>
+
+
     <Container>
     <div style={{ display: "flex", paddingTop: "80px" }}>
               <Box sx={{ paddingTop: "40px" }}>

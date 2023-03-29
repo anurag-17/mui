@@ -31,9 +31,12 @@ export const Tabss = () => {
 
   return (
     <>
-      <div className="top_tabs">
-        <TabContext value={value}>
+        <div className="top_tabs">
+        <div className="wave1"> </div>
+        <div className="wave2"> </div>
+
          <Container>
+        <TabContext value={value}>
          <div className="scroller"
            
            >
@@ -85,13 +88,13 @@ export const Tabss = () => {
                />
              </TabList>
            </div>
-         </Container>
 
           <Carousel
             autoPlay={false}
             navButtonsAlwaysInVisible={true}sx={{    buttonHidden:{
               opacity :'1'
           },}}
+          
             next={() => {
               if (value == 1) {
                 setValue("2");
@@ -373,6 +376,8 @@ export const Tabss = () => {
             </TabPanel>
           </Carousel>
         </TabContext>
+        </Container>
+
       </div>
     </>
   );
