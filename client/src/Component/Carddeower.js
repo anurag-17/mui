@@ -39,7 +39,7 @@ export const Carddeower = () => {
 
               letterSpacing: " -0.02em",
               textTransform: " uppercase",
-
+              paddingTop: "4px",
               color: "#091A2A",
             }}
           >
@@ -71,7 +71,7 @@ export const Carddeower = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div>
+              <div className="cardCoursel">
                 <Card
                    className= "card_swiper"
                   sx={{

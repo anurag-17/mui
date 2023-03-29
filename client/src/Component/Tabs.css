@@ -10,6 +10,7 @@
 @media (max-width:767px) {
     .scroller {
         margin: 0 !important;
+        margin-top: 20px !important;
         padding: 0 !important;
     }
 

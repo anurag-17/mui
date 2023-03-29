@@ -13,7 +13,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import ListItemText from "@mui/material/ListItemText";
-import navimg from "../Img/svg-logo.svg";
+import navimg from "../Img/svg-logo.png";
 import iconsvg from "../Img/Icon.svg";
 import RectangleSKULL from "../Img/Rectangle 2.svg";
 
@@ -32,7 +32,7 @@ export const Nav = () => {
   const drawerWidth = 240;
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box className="mediaNavbar" onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
         <img className="logo_img" src={navimg} />
       </Typography>
@@ -122,7 +122,7 @@ export const Nav = () => {
               className="navcon"
               style={{
                 display: "flex",
-                paddingTop: "80px",
+                paddingTop: "30px",
                 // display: "flex",
                 // paddingTop: "80px",
                 // width: "95%",

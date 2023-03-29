@@ -1,3 +1,10 @@
+.mediaNavbar{
+    background: linear-gradient(109.95deg, #117A6E 12.19%, #14A144 55.55%, #092330 98.9%);
+  mix-blend-mode: darken;
+  height: 100%;
+  color: white;
+}
+
 .top_navBox {
   /* background: url("../Img/MangoMedicalBanner.svg") ,no-repeat; */
   background-position: center;
@@ -25,7 +32,7 @@
   background: url("../Img/Rectangle 3.png") no-repeat;
   background-position: center;
   height: 1053px;
-  width: 101%;
+  width: 100%;
   display: flex;
   background-size: cover;
   flex-direction: column;
@@ -69,10 +76,10 @@
   width: 75%;
 }
 
-/* .logo_img {
-  width: 150px;
+.logo_img {
+  width: 180px;
   height: 100px;
-} */
+}
 .wave1_nav{
   background-image: url(../Img/lowerWave.svg);
   width: 100%;
@@ -148,4 +155,9 @@
 /*  dots   */
 .css-1m9128y {
   display: none;
+}
+@media (max-width:360px) {
+  .skullimg{
+    height: 160px;
+  }
 }
