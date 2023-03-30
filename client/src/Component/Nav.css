@@ -1,9 +1,9 @@
-.mediaNavbar{
+/* .mediaNavbar{
     background: linear-gradient(109.95deg, #117A6E 12.19%, #14A144 55.55%, #092330 98.9%);
   mix-blend-mode: darken;
   height: 100%;
   color: white;
-}
+} */
 
 .top_navBox {
   /* background: url("../Img/MangoMedicalBanner.svg") ,no-repeat; */
@@ -31,7 +31,7 @@
 .top_tabs {
   background: url("../Img/Rectangle 3.png") no-repeat;
   background-position: center;
-  height: 1053px;
+  height: 1200px;
   width: 100%;
   display: flex;
   background-size: cover;

@@ -14,6 +14,7 @@ import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import ListItemText from "@mui/material/ListItemText";
 import navimg from "../Img/svg-logo.png";
+import desknavimg from "../Img/svg-logodesk.svg";
 import iconsvg from "../Img/Icon.svg";
 import RectangleSKULL from "../Img/Rectangle 2.svg";
 
@@ -76,7 +77,7 @@ export const Nav = () => {
                   component="div"
                   sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
                 >
-                  <img className="logo_img" src={navimg} />
+                  <img className="logo_img" src={desknavimg} />
                 </Typography>
                 <Box
                   className="navmenu_box"
