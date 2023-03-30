@@ -33,7 +33,11 @@ export const Nav = () => {
   const drawerWidth = 240;
 
   const drawer = (
-    <Box className="mediaNavbar" onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box
+      className="mediaNavbar"
+      onClick={handleDrawerToggle}
+      sx={{ textAlign: "center" }}
+    >
       <Typography variant="h6" sx={{ my: 2 }}>
         <img className="logo_img" src={navimg} />
       </Typography>
@@ -53,7 +57,6 @@ export const Nav = () => {
   return (
     <>
       <div className="top_navBox">
-       
         <Box>
           <CssBaseline />
           <Container maxWidth="xl">
@@ -86,14 +89,21 @@ export const Nav = () => {
                     width: "45%",
                     justifyContent: "space-between",
                   }}
-                  
                 >
                   {navItems.map((item) => (
-                    <Button key={item} sx={{ color: "#fff", fontFamily: "poppins", textTransform: "capitalize" ,fontWeight:"600"}}>
+                    <Button
+                      key={item}
+                      sx={{
+                        color: "#fff",
+                        fontFamily: "poppins",
+                        textTransform: "capitalize",
+                        fontWeight: "600",
+                      }}
+                    >
                       {item}
                     </Button>
                   ))}
-                  <Button sx={{ color: "#fff",fontWeight:"600" }}>
+                  <Button sx={{ color: "#fff", fontWeight: "600" }}>
                     <img src={iconsvg} />
                   </Button>
                 </Box>
@@ -199,11 +209,7 @@ export const Nav = () => {
                 </Button>
               </Box>
               <Box sx={{ width: "60%" }}>
-                <img
-                  className="skullimg"
-                 
-                  src={RectangleSKULL}
-                />
+                <img className="skullimg" src={RectangleSKULL} />
               </Box>
             </div>
           </Container>

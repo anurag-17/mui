@@ -73,7 +73,7 @@ export const Carddeower = () => {
             <SwiperSlide>
               <div className="cardCoursel">
                 <Card
-                   className= "card_swiper"
+                  className="card_swiper"
                   sx={{
                     minWidth: 300,
                     marginRight: "150px",
@@ -125,7 +125,7 @@ export const Carddeower = () => {
             <SwiperSlide>
               <div>
                 <Card
-                className= "card_swiper"
+                  className="card_swiper"
                   sx={{
                     minWidth: 300,
                     marginRight: "150px",
@@ -177,7 +177,7 @@ export const Carddeower = () => {
             <SwiperSlide>
               <div>
                 <Card
-                className= "card_swiper"
+                  className="card_swiper"
                   sx={{
                     minWidth: 300,
                     marginRight: "150px",
@@ -229,7 +229,7 @@ export const Carddeower = () => {
             <SwiperSlide>
               <div>
                 <Card
-                className= "card_swiper"
+                  className="card_swiper"
                   sx={{
                     minWidth: 300,
                     marginRight: "150px",
@@ -281,7 +281,7 @@ export const Carddeower = () => {
             <SwiperSlide>
               <div>
                 <Card
-                className= "card_swiper"
+                  className="card_swiper"
                   sx={{
                     minWidth: 300,
                     marginRight: "150px",
@@ -333,7 +333,7 @@ export const Carddeower = () => {
             <SwiperSlide>
               <div>
                 <Card
-                className= "card_swiper"
+                  className="card_swiper"
                   sx={{
                     minWidth: 300,
                     marginRight: "150px",
